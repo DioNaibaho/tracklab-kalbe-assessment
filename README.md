@@ -32,7 +32,7 @@ swager UI tersedia di http://localhost:5050/swagger
 ### 2. Menjalankan Frontend Next.js
 cd frontend
 cp .env.example .env.local
-# Isi KALBE_APP_ID dan KALBE_APP_KEY pada .env.local
+#Isi KALBE_APP_ID dan KALBE_APP_KEY pada .env.local
 npm install
 npm run dev
 
