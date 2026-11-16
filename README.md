@@ -28,7 +28,7 @@ cd logger-api
 dotnet run --urls "http://localhost:5050"
 
 swager UI tersedia di http://localhost:5050/swagger
-
+```
 ### 2. Menjalankan Frontend Next.js
 cd frontend
 cp .env.example .env.local
