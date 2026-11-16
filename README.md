@@ -26,3 +26,18 @@ Aplikasi full-stack **TRACKLAB** untuk manajemen permintaan analisis laboratoriu
 ```bash
 cd logger-api
 dotnet run --urls "http://localhost:5050"
+
+swager UI tersedia di http://localhost:5050/swagger
+
+### 2. Menjalankan Frontend Next.js
+cd frontend
+cp .env.example .env.local
+# Isi KALBE_APP_ID dan KALBE_APP_KEY pada .env.local
+npm install
+npm run dev
+
+akses aplikasi di http://localhost:3000
+
+### 3. Menjalankan Automated Test
+cd frontend
+node --test tests/tracklab.test.mjs
