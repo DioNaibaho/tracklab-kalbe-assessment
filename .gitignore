@@ -1,0 +1,22 @@
+# Dependencies & Build Next.js
+node_modules/
+.next/
+out/
+build/
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# .NET Build & SQLite Database
+bin/
+obj/
+*.db
+*.db-shm
+*.db-wal
+.vs/
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+*.log
